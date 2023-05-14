@@ -2,8 +2,12 @@ package com.example.thread;
 /*
 *
 * runnable
+* 1.自己定义一个类实现Runnable接口
+* 2.重写run方法
+* 3.创建自己的类的对象
+* 4.创建一个Thread类的对象，开启线程
 * */
-public class TaskThreadDemo {
+public class RunnableDemo {
     public static void main(String[] args) {
         Runnable printA = new PrintChar('a',100);
         Runnable printB = new PrintChar('b',100);
