@@ -1,7 +1,8 @@
 package com.example.thread;
 /*
 * Thread
-*
+*优点编程比较简单，可以直接使用Thread类中的方法
+* 缺点：可扩展性较差，不能再继承其他的类
 * */
 public class ThreadDemo {
     public static void main(String[] args) {

@@ -6,6 +6,9 @@ package com.example.thread;
 * 2.重写run方法
 * 3.创建自己的类的对象
 * 4.创建一个Thread类的对象，开启线程
+*
+* 优点扩展性强，实现该接口的同时还可以继承其他的类
+* 缺点编程相对复炸，不能直接使用Thraed类中的方法
 * */
 public class RunnableDemo {
     public static void main(String[] args) {
